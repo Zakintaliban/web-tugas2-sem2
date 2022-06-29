@@ -45,10 +45,12 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-color" aria-current="page" href="#">flash sale</a>
+                <a class="nav-color" aria-current="page" href="#start"
+                  >start learning</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-color" href="#">Link</a>
+                <a class="nav-color" href="#who">about us</a>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -59,12 +61,14 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  More
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
                   <li>
-                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#register">register</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#footer">Misc.</a>
                   </li>
                 </ul>
               </li>
@@ -99,7 +103,7 @@
 
       <div class="feature py-5">
         <div class="mb-5">
-          <b class="text">Start Learning Today</b>
+          <b class="text" id="start">Start Learning Today</b>
           <h2 class="header-primary">
             Temui Kelas Berdasarkan <br class="desktop" />
             Kategori Yang Kami Sediakan
@@ -197,7 +201,7 @@
       </div>
 
       <div class="who my-5 mx-auto">
-        <h1>who are we?</h1>
+        <h1 id="who">who are we?</h1>
         <table class="mx-auto">
           <tr>
             <th>
@@ -229,7 +233,7 @@
           </tr>
         </table>
       </div>
-      <div class="form my-5">
+      <div class="form my-5" id="register">
         <form>
           <div class="mb-3">
             <h3 for="exampleInputEmail1" class="form-label mx-auto">
@@ -272,7 +276,10 @@
         </form>
       </div>
 
-      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5">
+      <footer
+        id="footer"
+        class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5"
+      >
         <div class="col mb-3">
           <a
             href="/index.html"
