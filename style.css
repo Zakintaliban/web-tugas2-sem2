@@ -108,6 +108,24 @@ body {
   width: 460px;
 }
 
+#source a:link {
+  text-decoration: underline;
+  color: black;
+}
+
+#source a:visited {
+  text-decoration: underline;
+  color: black;
+}
+
+#source {
+  color: black;
+  background-color: #eed6d3;
+  text-align: center;
+  font-weight: bold;
+  overflow: hidden;
+}
+
 @media only screen and (max-width: 768px) {
   .icon {
     font-size: 20px;
