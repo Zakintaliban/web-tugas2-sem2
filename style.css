@@ -1,0 +1,157 @@
+header {
+  background-color: #c5e3f2;
+}
+body {
+  background-color: #c5e3f2;
+  color: #000;
+}
+
+.btn-search:hover {
+  background-color: #a8cee9;
+}
+
+.icon {
+  font-size: 20px;
+  margin: auto;
+  text-decoration: none;
+  margin-left: 120px;
+  cursor: pointer;
+}
+
+.nav-color {
+  font-size: 20px;
+  color: #988686;
+  text-decoration: none;
+}
+
+.nav-color:hover {
+  color: #5c4e4e;
+  transition: 0.5s;
+}
+
+.nav-color:not(:hover) {
+  color: #988686;
+  transition: 0.5s;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.darkmode {
+  background-color: #000000;
+  color: #d1d0d0;
+}
+
+.navbar-toggler-icon {
+  background-color: #5c4e4e;
+  border-radius: 10px;
+}
+
+.btn-first {
+  background-color: #eed6d3;
+}
+
+.btn-first:hover {
+  background-color: #e29cb4;
+  color: #000000;
+  box-shadow: 3px 10px 5px #eed6d3;
+  transition: 0.8s;
+}
+
+.btn-second {
+  background-color: #a8cee9;
+}
+
+.btn-second:hover {
+  background-color: #c5e3f2;
+  color: #000000;
+  box-shadow: 3px 10px 5px #a8cee9;
+  transition: 0.8s;
+}
+
+.feature .text {
+  color: #e29cb4;
+}
+
+.card {
+  background-color: #e29cb4;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.warning-info {
+  text-decoration: underline;
+}
+
+.form-label {
+  width: 200px;
+}
+
+.muka {
+  width: 460px;
+  height: 460px;
+}
+
+.bio-hasbi {
+  background-color: #2971a4;
+  border-radius: 10px;
+  width: 460px;
+}
+
+.bio-joanne {
+  background-color: #be3765;
+  border-radius: 10px;
+  width: 460px;
+}
+
+@media only screen and (max-width: 768px) {
+  .icon {
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 0px;
+    cursor: pointer;
+  }
+
+  .nav-item {
+    margin-right: 0px;
+  }
+
+  .muka {
+    height: 230px;
+    width: 230px;
+  }
+
+  .bio-hasbi {
+    background-color: #a8cee9;
+    border-radius: 10px;
+    width: 230px;
+  }
+
+  .bio-joanne {
+    background-color: #e29cb4;
+    border-radius: 10px;
+    width: 230px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .muka {
+    height: 115px;
+    width: 115px;
+  }
+  .bio-hasbi {
+    background-color: #a8cee9;
+    border-radius: 10px;
+    width: 115px;
+  }
+
+  .bio-joanne {
+    background-color: #e29cb4;
+    border-radius: 10px;
+    width: 115px;
+  }
+}
