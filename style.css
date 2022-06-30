@@ -137,6 +137,10 @@ table {
   border-collapse: separate;
 }
 
+.copyright {
+  margin-right: 10px;
+}
+
 @media only screen and (max-width: 768px) {
   .icon {
     font-size: 20px;
@@ -168,6 +172,10 @@ table {
 .modal-content,
 .modal-body {
   border: 0px;
+}
+
+.shadow-sm {
+  overflow: hidden;
 }
 
 @media only screen and (max-width: 425px) {
