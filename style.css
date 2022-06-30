@@ -94,6 +94,7 @@ body {
 .muka {
   width: 460px;
   height: 460px;
+  border-radius: 10px;
 }
 
 .bio-hasbi {
@@ -129,6 +130,11 @@ body {
 .video {
   width: 100%;
   height: auto;
+}
+
+table {
+  border-spacing: 10px;
+  border-collapse: separate;
 }
 
 @media only screen and (max-width: 768px) {
