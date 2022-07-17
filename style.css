@@ -15,15 +15,11 @@ body {
   font-size: 20px;
   color: #988686;
   text-decoration: none;
+  transition: 0.5s;
 }
 
 .nav-color:hover {
   color: #5c4e4e;
-  transition: 0.5s;
-}
-
-.nav-color:not(:hover) {
-  color: #988686;
   transition: 0.5s;
 }
 
