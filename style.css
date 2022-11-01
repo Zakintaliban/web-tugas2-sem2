@@ -16,6 +16,7 @@ body {
   color: #988686;
   text-decoration: none;
   transition: 0.5s;
+  text-align: center;
 }
 
 .nav-color:hover {
@@ -92,10 +93,6 @@ body {
   margin-right: auto;
 }
 
-.nama-contact {
-  text-align: center;
-}
-
 table {
   border-spacing: 10px;
   border-collapse: separate;
@@ -159,7 +156,6 @@ table {
   overflow: hidden;
 }
 
-/* 
 .mapouter {
   position: relative;
   text-align: right;
@@ -189,7 +185,19 @@ table {
   display: block;
   margin-left: auto;
   margin-right: auto;
-} */
+}
+
+.projects span {
+  font-family: "helvetica";
+  font-weight: 600;
+  color: #c5e3f2;
+  background-color: #000;
+}
+
+.projects img {
+  display: block;
+  margin: auto;
+}
 
 @media only screen and (max-width: 768px) {
   .icon {
@@ -223,10 +231,10 @@ table {
     margin: auto;
   }
 
-  /* .gmap_canvas {
+  .gmap_canvas {
     height: 500px;
     width: 500px;
-  } */
+  }
 }
 
 @media only screen and (max-width: 425px) {
