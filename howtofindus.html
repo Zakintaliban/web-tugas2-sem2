@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="gongbuhada.com" />
+    <meta name="author" content="Zakintaliban & Joanneeldy" />
+    <title>Gongbuhada</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-md py-4" id="navbar">
+        <a class="navbar-brand" href="index.html">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            fill="#5C4E4E"
+            class="bi bi-meta"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M8.217 5.243C9.145 3.988 10.171 3 11.483 3 13.96 3 16 6.153 16.001 9.907c0 2.29-.986 3.725-2.757 3.725-1.543 0-2.395-.866-3.924-3.424l-.667-1.123-.118-.197a54.944 54.944 0 0 0-.53-.877l-1.178 2.08c-1.673 2.925-2.615 3.541-3.923 3.541C1.086 13.632 0 12.217 0 9.973 0 6.388 1.995 3 4.598 3c.319 0 .625.039.924.122.31.086.611.22.913.407.577.359 1.154.915 1.782 1.714Zm1.516 2.224c-.252-.41-.494-.787-.727-1.133L9 6.326c.845-1.305 1.543-1.954 2.372-1.954 1.723 0 3.102 2.537 3.102 5.653 0 1.188-.39 1.877-1.195 1.877-.773 0-1.142-.51-2.61-2.87l-.937-1.565ZM4.846 4.756c.725.1 1.385.634 2.34 2.001A212.13 212.13 0 0 0 5.551 9.3c-1.357 2.126-1.826 2.603-2.581 2.603-.777 0-1.24-.682-1.24-1.9 0-2.602 1.298-5.264 2.846-5.264.091 0 .181.006.27.018Z"
+            />
+          </svg>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-color" aria-current="page" href="#start"
+                >Start learning</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-color" href="#who">About us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-color dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                More
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#register">register</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#footer">Misc.</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item icon">
+              <p class="icon" onclick="setDarkMode()" id="darkBtn">
+                Click me! 👓
+              </p>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <h1>How to find us</h1>
+      <div class="hero-contact">
+        <div class="row">
+          <div class="col map">
+            <div class="gmap_canvas">
+              <iframe
+                width="600"
+                height="600"
+                id="gmap_canvas"
+                src="https://maps.google.com/maps?q=universitas%20siber%20asia&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+              >
+              </iframe>
+            </div>
+          </div>
+          <div class="col-xl-6 text-center">
+            <div class="row">
+              <div class="col">
+                <a class="nav-color" href="mailto:hasbi@gongbuhada.com"
+                  >Khasbullah Nukman Zakin</a
+                >
+                <img
+                  src="https://github.com/zakintaliban.png"
+                  class="muka-contact"
+                  alt=""
+                />
+                <div>
+                  <a class="nav-color" href="./assets/resume-hasbi.pdf" download
+                    >resume</a
+                  >
+                </div>
+                <img
+                  class="data-language"
+                  src="https://github-readme-stats.vercel.app/api/top-langs/?username=zakintaliban&layout=compact&theme=synthwave"
+                  alt="programming language of zakin"
+                />
+              </div>
+              <div class="col">
+                <a class="nav-color" href="mailto:joan@gongbuhada.com"
+                  >Joanne Landy Tantreece</a
+                >
+                <img
+                  src="https://github.com/joanneeldy.png"
+                  class="muka-contact"
+                  alt=""
+                />
+                <div>
+                  <a
+                    class="nav-color"
+                    href="./assets/resume-joanne.pdf"
+                    download
+                    >resume</a
+                  >
+                </div>
+                <img
+                  class="data-language"
+                  src="https://github-readme-stats.vercel.app/api/top-langs/?username=joanneeldy&layout=compact&theme=synthwave"
+                  alt="programming language of joanne"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="projects row">
+          <h1 class="m-5">our projects as team <span>gongbuhada</span></h1>
+          <div class="col py-5">
+            <img
+              src="https://github-readme-stats.vercel.app/api/pin/?username=zakintaliban&repo=kriptografi-praktikum1-python&theme=synthwave"
+              alt=""
+            />
+          </div>
+          <div class="col py-5">
+            <img
+              src="https://github-readme-stats.vercel.app/api/pin/?username=zakintaliban&repo=web-tugas2-sem2&theme=synthwave"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="source">
+      <h4>
+        Made with ❤️ by
+        <a href="https://github.com/Zakintaliban">Hasbi</a> &
+        <a href="https://github.com/joanneeldy/">Joan</a>
+      </h4>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
