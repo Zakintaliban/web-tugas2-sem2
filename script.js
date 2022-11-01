@@ -10,8 +10,8 @@ function setDarkMode() {
     localStorage.removeItem("theme");
   }
   document.getElementById("darkBtn").innerHTML = isDark
-    ? "click me! 🕶️"
-    : "click me! 👓";
+    ? "Click me! 🕶️"
+    : "Click me! 👓";
 }
 
 function play() {
