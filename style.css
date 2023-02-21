@@ -64,18 +64,8 @@ body {
   color: #e29cb4;
 }
 
-.card {
-  background-color: #e29cb4;
-  border-radius: 10px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  overflow: hidden;
-}
-
-.card-text {
-  color: #000;
+.carousel-inner {
+  width: 1000px;
 }
 
 .muka {
@@ -127,6 +117,8 @@ table {
 .form-label {
   width: 200px;
   text-align: center;
+  font-family: "helvetica";
+  font-weight: 600;
 }
 
 .modal-content,
@@ -212,6 +204,10 @@ table {
     margin-right: 0px;
   }
 
+  .carousel-inner {
+    width: 600px;
+  }
+
   .muka {
     height: 230px;
     width: 230px;
@@ -239,19 +235,23 @@ table {
 }
 
 @media only screen and (max-width: 425px) {
+  .carousel-inner {
+    width: 300px;
+  }
+
   .muka {
-    height: 115px;
-    width: 115px;
+    height: 185px;
+    width: 185px;
     border-radius: 10px;
   }
   .bio-hasbi {
     border-radius: 10px;
-    width: 115px;
+    width: auto;
   }
 
   .bio-joanne {
     border-radius: 10px;
-    width: 115px;
+    width: auto;
   }
 
   .gmap_canvas {
