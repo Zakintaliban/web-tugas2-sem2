@@ -88,6 +88,11 @@ table {
   border-collapse: separate;
 }
 
+.tulisan-carousel {
+  font-weight: 600;
+  text-align: center;
+}
+
 .bio-hasbi {
   background-color: #2971a4;
   border-radius: 10px;
@@ -117,7 +122,6 @@ table {
 .form-label {
   width: 200px;
   text-align: center;
-  font-family: "helvetica";
   font-weight: 600;
 }
 
@@ -179,7 +183,6 @@ table {
 }
 
 .projects span {
-  font-family: "helvetica";
   font-weight: 600;
   color: #c5e3f2;
   background-color: #000;
