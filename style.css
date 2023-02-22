@@ -242,9 +242,13 @@ table {
     width: 300px;
   }
 
+  th {
+    text-align: center;
+  }
+
   .muka {
-    height: 185px;
-    width: 185px;
+    height: 110px;
+    width: 110px;
     border-radius: 10px;
   }
   .bio-hasbi {
